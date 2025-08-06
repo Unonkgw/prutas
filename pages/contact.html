@@ -37,13 +37,36 @@
     </nav>
     </header>
  <main>
-        <section class="contact-section">
-            <div class="section-content">
-                <div class="contact-details">
-                    <h1>Testing - contact us</h1>
+    <section class="contact-section">
+        <div class="section-content">
+          
+          <!-- Left: Form Section -->
+          <div class="contact-left">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="description">We'd love to hear from you! Fill out the form and we'll get back to you as soon as possible.</p>
+      
+            <form class="contact-form">
+              <div class="form-grid">
+                <div class="form-left">
+                  <input type="text" name="name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <input type="text" name="subject" placeholder="Subject" required>
                 </div>
-            </div>
-        </section>
+                <div class="form-right">
+                  <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+              </div>
+              <button type="submit" class="button">Send Message</button>
+            </form>
+          </div>
+      
+          <!-- Right: Image Section -->
+          <div class="contact-image-wrapper">
+            <img src="https://twistedcitrus.co.nz/uploads/images/contact-new-01.webp" alt="Contact Image" class="contact-image">
+          </div>
+      
+        </div>
+      </section>
     </main>
 </body>
 </html>
