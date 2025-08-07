@@ -338,4 +338,217 @@ header .navbar {
 }
 
 
+.contact-section {
+    background: var(--border-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.contact-section .section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 120px;
+    padding-bottom: 60px;
+    gap: 40px;
+    flex-wrap: wrap;
+    color: var(--dark-primary-color);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.contact-left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.contact-left .section-title {
+    font-size: 2rem;
+    color: var(--background-color);
+    font-weight: var(--font-weight-bold);
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-left .description {
+    font-size: var(--font-size-md);
+    color: var(--text-color);
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form .form-grid {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.form-left,
+.form-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-left input,
+.form-right textarea {
+    width: 100%;
+    padding: 20px 24px;
+    font-size: 1.2rem;
+    font-weight: var(--font-weight-semibold);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--background-color);
+    background: #fff;
+    color: var(--text-color);
+    resize: none;
+}
+
+.contact-form textarea {
+    min-height: 300px;
+}
+
+.contact-form .button {
+    background: var(--primary-color);
+    color: var(--border-color);
+    padding: 14px 28px;
+    font-size: var(--font-size-md);
+    border-radius: var(--radius-md);
+    font-weight: var(--font-weight-medium);
+    width: fit-content;
+    transition: background 0.3s ease;
+    border: none;
+}
+
+.contact-form .button:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+.contact-image-wrapper {
+    flex: 1;
+    max-width: 500px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-image {
+    width: 140%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    object-fit: cover;
+    margin-top: 130px;
+    margin-left: 400px;
+}
+
+
+.product-section {
+    background: var(--border-color);
+    min-height: 100vh;
+    padding: 100px 0 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .product-section .section-content {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+.product-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+  
+.product-header .section-title {
+    font-size: var(--font-size-xl);
+    color: var(--background-color);
+    font-weight: var(--font-weight-bold);
+    font-family: "Poppins", sans-serif;
+}
+  
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+  
+.product-card {
+    background: #fff;
+    border: 1px solid var(--background-color);
+    border-radius: var(--radius-md);
+    padding: 24px;
+    text-align: center;
+    width: 250px; 
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+  
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+  
+.product-card h3 {
+    font-size: var(--font-size-lg);
+    color: var(--background-color);
+    margin-bottom: 12px;
+}
+  
+.product-card p {
+    font-size: var(--font-size-md);
+    color: var(--text-color);
+    margin-bottom: 16px;
+}
+  
+.product-card .purchase-button {
+    background: var(--primary-color);
+    color: var(--border-color);
+    padding: 12px 24px;
+    font-size: var(--font-size-md);
+    border-radius: var(--radius-md);
+    font-weight: var(--font-weight-medium);
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+  
+.product-card .purchase-button:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
 
